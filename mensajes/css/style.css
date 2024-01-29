@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+span {
+  font-weight: normal;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch;
+  text-align: initial;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+input[type="text"], input[type="password"], select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.info-usuario, .select-usuario, .mensaje {
+  margin-bottom: 20px;
+}
+
+.info-usuario p, .select-usuario p, .mensaje p {
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+
+.button {
+  background-color: #4565a0;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #7c96c7;
+}
+
+.contenedor {
+  max-width: 400px;
+  min-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.527);
+}
+
+.contenedor > .usuario {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.info-usuario {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.usuarioPago {
+  width: 25px;
+  height: 25px;
+ 
+}
+
+.lista-mensajes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: stretch;
+}
+
+.usuario-login {
+  color: #007bff;
+  font-size: 18px;
+}
